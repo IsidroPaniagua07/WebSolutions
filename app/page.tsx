@@ -4,7 +4,7 @@ import StatsBar from '@/components/StatsBar';
 import Services from '@/components/Services';
 import HowItWorks from '@/components/HowItWorks';
 import WhyUs from '@/components/WhyUs';
-import Pricing from '@/components/Pricing';
+import GetQuote from '@/components/GetQuote';
 import CTABanner from '@/components/CTABanner';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -18,7 +18,7 @@ export default function Home() {
       <Services />
       <HowItWorks />
       <WhyUs />
-      <Pricing />
+      <GetQuote />
       <CTABanner />
       <Contact />
       <Footer />

@@ -42,7 +42,7 @@ export default function Navbar() {
         <nav className={`nav-links${open ? ' open' : ''}`} id="navLinks">
           <Link href="#services" onClick={close}>Services</Link>
           <Link href="#how-it-works" onClick={close}>How It Works</Link>
-          <Link href="#pricing" onClick={close}>Pricing</Link>
+          <Link href="#get-quote" onClick={close}>Get a Quote</Link>
           <Link href="#contact" className="btn btn-nav" onClick={close}>Get Started</Link>
         </nav>
 
