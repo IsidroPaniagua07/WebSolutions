@@ -1,102 +1,109 @@
 import Link from 'next/link';
 
-const features = [
-  'Pre-configured for GLVAR MLS',
-  'Custom design (not a template)',
-  'Las Vegas local support team',
-  'Managed hosting included',
-  'Unlimited content updates',
-  'Local SEO for LV neighborhoods',
-  'No long-term contracts',
-  'One-business-day response time',
-];
-
-const columns = [
+const options = [
   {
-    name: 'DIY Builders',
-    sub: 'Squarespace, Wix',
+    label: 'DIY Website Builders',
+    examples: 'Squarespace, Wix, WordPress.com',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none">
+        <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="2"/>
+        <path d="M3 9h18M9 21V9" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+      </svg>
+    ),
+    goodFor: 'Budget-conscious agents who have time to learn the platform and enjoy managing their own tech.',
+    tradeoffs: [
+      'IDX/MLS integration requires a separate paid service and technical setup',
+      'You handle all updates, security patches, and content changes yourself',
+      'No real estate expertise — you adapt general-purpose tools to fit your needs',
+      'Support is for the platform, not your real estate business',
+    ],
+    cta: null,
     featured: false,
-    values: [false, false, false, false, false, false, true, false],
-    note: 'You do everything yourself.',
   },
   {
-    name: 'NVRealtorWeb',
-    sub: 'That\'s us',
+    label: 'NVRealtorWeb',
+    examples: 'Built exclusively for Greater Las Vegas Realtors',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
+        <path d="M9 22V12h6v10" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
+      </svg>
+    ),
+    goodFor: 'Las Vegas Realtors who want a professional, fully managed online presence without the tech headaches.',
+    tradeoffs: [
+      'GLVAR MLS / IDX integration included and pre-configured',
+      'We handle design, hosting, updates, and support — all in one',
+      'Local Las Vegas team that knows your market, neighborhoods, and buyers',
+      'Custom-designed for your brand — not a template someone else is using',
+    ],
+    cta: '#contact',
     featured: true,
-    values: [true, true, true, true, true, true, true, true],
-    note: null,
   },
   {
-    name: 'National Providers',
-    sub: 'Real Geeks, Agent Image',
+    label: 'National Real Estate Platforms',
+    examples: 'Real Geeks, kvCORE, Agent Image, and others',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+      </svg>
+    ),
+    goodFor: 'Agents who want an established real estate platform with built-in CRM, lead gen tools, and IDX out of the box.',
+    tradeoffs: [
+      'Solid IDX and lead gen tools built for real estate nationally',
+      'Support teams serve thousands of agents — response times vary',
+      'Not specifically tuned for the Las Vegas / GLVAR market',
+      'Often higher monthly cost with annual contracts required',
+    ],
+    cta: null,
     featured: false,
-    values: [false, false, false, true, false, false, false, false],
-    note: 'Not built for Las Vegas.',
   },
 ];
-
-function Check({ yes }: { yes: boolean }) {
-  return yes ? (
-    <span className="comp-check comp-check--yes">
-      <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-    </span>
-  ) : (
-    <span className="comp-check comp-check--no">
-      <svg viewBox="0 0 20 20" fill="none"><path d="M5 15L15 5M5 5l10 10" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/></svg>
-    </span>
-  );
-}
 
 export default function Comparison() {
   return (
     <section className="section" id="comparison">
       <div className="container">
         <div className="section-header">
-          <div className="section-tag">Why NVRealtorWeb</div>
-          <h2 className="section-title">How We Stack Up</h2>
+          <div className="section-tag">Your Options</div>
+          <h2 className="section-title">Choosing the Right Solution</h2>
           <p className="section-subtitle">
-            Not all real estate website solutions are created equal — especially for Las Vegas.
+            There&apos;s no single right answer for every agent. Here&apos;s an honest look at your
+            main choices so you can decide what fits your situation.
           </p>
         </div>
 
-        <div className="comp-table-wrap">
-          <table className="comp-table">
-            <thead>
-              <tr>
-                <th className="comp-feature-col" />
-                {columns.map((col) => (
-                  <th key={col.name} className={col.featured ? 'comp-col comp-col--featured' : 'comp-col'}>
-                    {col.featured && <div className="comp-badge">Best for LV Realtors</div>}
-                    <div className="comp-col-name">{col.name}</div>
-                    <div className="comp-col-sub">{col.sub}</div>
-                  </th>
+        <div className="options-grid">
+          {options.map((opt) => (
+            <div key={opt.label} className={`option-card${opt.featured ? ' option-card--featured' : ''}`}>
+              {opt.featured && <div className="option-badge">Our Approach</div>}
+              <div className="option-icon">{opt.icon}</div>
+              <h3 className="option-title">{opt.label}</h3>
+              <p className="option-examples">{opt.examples}</p>
+
+              <div className="option-section-label">
+                {opt.featured ? 'What you get' : 'Best for'}
+              </div>
+              <p className="option-good-for">{opt.goodFor}</p>
+
+              <div className="option-section-label">
+                {opt.featured ? 'What&apos;s included' : 'Things to consider'}
+              </div>
+              <ul className="option-list">
+                {opt.tradeoffs.map((t) => (
+                  <li key={t} className={opt.featured ? 'option-list--positive' : ''}>
+                    {t}
+                  </li>
                 ))}
-              </tr>
-            </thead>
-            <tbody>
-              {features.map((feat, i) => (
-                <tr key={feat}>
-                  <td className="comp-feature-label">{feat}</td>
-                  {columns.map((col) => (
-                    <td key={col.name} className={`comp-cell${col.featured ? ' comp-cell--featured' : ''}`}>
-                      <Check yes={col.values[i]} />
-                    </td>
-                  ))}
-                </tr>
-              ))}
-              <tr className="comp-note-row">
-                <td />
-                {columns.map((col) => (
-                  <td key={col.name} className={`comp-note-cell${col.featured ? ' comp-cell--featured' : ''}`}>
-                    {col.featured
-                      ? <Link href="#contact" className="btn btn-primary">Get Started</Link>
-                      : <span className="comp-note">{col.note}</span>
-                    }
-                  </td>
-                ))}
-              </tr>
-            </tbody>
-          </table>
+              </ul>
+
+              {opt.cta && (
+                <Link href={opt.cta} className="btn btn-primary btn-block" style={{ marginTop: 'auto' }}>
+                  Get a Free Quote
+                </Link>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </section>
