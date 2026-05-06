@@ -43,6 +43,7 @@ export default function Navbar() {
           <Link href="#services" onClick={close}>Services</Link>
           <Link href="#how-it-works" onClick={close}>How It Works</Link>
           <Link href="#get-quote" onClick={close}>Get a Quote</Link>
+          <Link href="#faq" onClick={close}>FAQ</Link>
           <Link href="#contact" className="btn btn-nav" onClick={close}>Get Started</Link>
         </nav>
 

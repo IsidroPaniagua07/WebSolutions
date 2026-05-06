@@ -24,8 +24,11 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4>Company</h4>
+          <Link href="#about">About Us</Link>
           <Link href="#how-it-works">How It Works</Link>
+          <Link href="#comparison">Why NVRealtorWeb</Link>
           <Link href="#get-quote">Get a Quote</Link>
+          <Link href="#faq">FAQ</Link>
           <Link href="#contact">Contact Us</Link>
         </div>
         <div className="footer-col">
