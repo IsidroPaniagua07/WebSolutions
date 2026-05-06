@@ -14,7 +14,7 @@ const options = [
     tradeoffs: [
       'You handle all updates, security patches, and content changes yourself',
       'Templates are used by thousands of other businesses — hard to stand out',
-      'No local expertise — general-purpose tools you adapt to fit your needs',
+      'No industry expertise — general-purpose tools you adapt to fit your needs',
       'Support is for the platform, not your specific business goals',
     ],
     cta: null,
@@ -22,19 +22,19 @@ const options = [
   },
   {
     label: 'NV Web Solutions',
-    examples: 'Built exclusively for Greater Las Vegas businesses',
+    examples: 'Built for growing businesses worldwide',
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
         <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
         <path d="M9 22V12h6v10" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
       </svg>
     ),
-    goodFor: 'Las Vegas business owners who want a professional, fully managed online presence without the tech headaches.',
+    goodFor: 'Business owners who want a professional, fully managed online presence without the tech headaches.',
     tradeoffs: [
       'Custom-designed for your brand — not a template someone else is using',
       'We handle design, hosting, updates, and support — all in one',
-      'Local Las Vegas team that knows your market, neighborhoods, and customers',
-      'Dedicated account manager who picks up the phone when you call',
+      'Dedicated team that knows your business and responds when you call',
+      'Transparent monthly reporting so you always see what your site delivers',
     ],
     cta: '#contact',
     featured: true,
@@ -52,7 +52,7 @@ const options = [
     tradeoffs: [
       'Broad service offerings — SEO, PPC, social, and web under one roof',
       'Support teams serve thousands of clients — you may feel like a number',
-      'Not specifically tuned for the Las Vegas local market',
+      'Cookie-cutter approaches that aren\'t tailored to your specific business',
       'Often higher monthly cost with annual contracts required',
     ],
     cta: null,

@@ -1,16 +1,16 @@
 const points = [
   {
-    title: 'Deep Local Market Knowledge',
-    body: 'We know Henderson, Summerlin, the Strip corridor, and every neighborhood in between. Your content and SEO will speak directly to Las Vegas customers.',
+    title: 'Deep Industry Knowledge',
+    body: 'We\'ve worked with businesses across retail, services, healthcare, hospitality, and more. Your website will be built with your industry\'s specific needs in mind.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
-        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
   },
   {
     title: 'Everything Under One Roof',
-    body: 'Design, development, hosting, maintenance, and SEO — all handled by one local team. No juggling vendors, no finger-pointing when something breaks.',
+    body: 'Design, development, hosting, maintenance, and SEO — all handled by one dedicated team. No juggling vendors, no finger-pointing when something breaks.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
         <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" fill="currentColor"/>
@@ -41,23 +41,23 @@ export default function WhyUs() {
                 <circle cx="100" cy="130" r="5" fill="#c9a84c"/>
                 <circle cx="200" cy="100" r="5" fill="#c9a84c"/>
                 <circle cx="300" cy="90" r="5" fill="#c9a84c"/>
-                <text x="200" y="260" textAnchor="middle" fill="#4a6fa5" fontSize="14" fontFamily="Inter">Greater Las Vegas Valley</text>
+                <text x="200" y="260" textAnchor="middle" fill="#4a6fa5" fontSize="14" fontFamily="Inter">Business Growth Over Time</text>
                 <rect x="160" y="220" width="80" height="25" rx="4" fill="#1a2744"/>
               </svg>
             </div>
             <div className="why-badge">
-              <strong>Las Vegas</strong>
-              <span>Local Experts</span>
+              <strong>Worldwide</strong>
+              <span>Web Experts</span>
             </div>
           </div>
         </div>
         <div className="why-content">
           <div className="section-tag">Why Choose Us</div>
-          <h2 className="section-title-left">We&apos;re Las Vegas Specialists — Not a Generic Agency</h2>
+          <h2 className="section-title-left">We&apos;re Web Specialists — Not a Generic Agency</h2>
           <p className="why-body">
-            We&apos;re not a generalist agency trying to serve everyone from coast to coast. Our
-            entire business is built around the Greater Las Vegas market — from Henderson to
-            Summerlin, from North Las Vegas to Boulder City.
+            We&apos;re not a generalist agency trying to serve everyone. Our entire business is
+            focused on one thing: building, hosting, and managing professional websites that
+            generate real results for real businesses.
           </p>
           <div className="why-points">
             {points.map((p) => (

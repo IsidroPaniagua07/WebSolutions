@@ -72,7 +72,7 @@ export default function GetQuote() {
           <div className="quote-cta-text">
             <h3>Ready to find out what it costs for your situation?</h3>
             <p>
-              Fill out our short contact form and a member of our Las Vegas team will follow up
+              Fill out our short contact form and a member of our team will follow up
               with a detailed proposal — no pressure, no obligation.
             </p>
           </div>

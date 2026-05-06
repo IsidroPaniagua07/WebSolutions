@@ -2,11 +2,12 @@ const values = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
-        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'Born & Raised in Las Vegas',
-    body: "We're not a company parachuting in from out of state. We live here, work here, and understand the Greater Las Vegas market from Henderson to Summerlin.",
+    title: 'Remote-First, Worldwide',
+    body: "We work with businesses across the globe. Wherever you are, our team is available, responsive, and fully equipped to handle your project from start to finish.",
   },
   {
     icon: (
@@ -15,7 +16,7 @@ const values = [
       </svg>
     ),
     title: 'Built for Local Businesses',
-    body: "We focus exclusively on Las Vegas businesses. Every design decision, every feature, and every support process is shaped around the needs of local business owners — not a national template.",
+    body: "We focus on businesses that serve their communities. Every design decision, every feature, and every support process is shaped around the needs of real business owners — not a generic template.",
   },
   {
     icon: (
@@ -24,7 +25,7 @@ const values = [
       </svg>
     ),
     title: 'A Real Person Picks Up the Phone',
-    body: 'When something needs attention, you reach a person — not a ticketing system, not an offshore help desk. Just a local team member who knows your site.',
+    body: 'When something needs attention, you reach a person — not a ticketing system, not an offshore help desk. Just a dedicated team member who knows your site.',
   },
   {
     icon: (
@@ -45,18 +46,18 @@ export default function About() {
           <div className="about-content">
             <div className="section-tag">Who We Are</div>
             <h2 className="section-title-left">
-              Las Vegas Businesses Deserve More Than a Generic Website
+              Every Business Deserves More Than a Generic Website
             </h2>
             <p className="why-body">
-              We started NV Web Solutions because we watched great local businesses get overlooked
+              We started NV Web Solutions because we watched great businesses get overlooked
               online while competitors with better websites took their customers. Cookie-cutter
-              templates, unreliable hosting, and support teams who&apos;d never even heard of
-              Henderson — Las Vegas business owners deserved better.
+              templates, unreliable hosting, and support teams that treat you like a ticket
+              number — business owners deserved better.
             </p>
             <p className="why-body" style={{ marginTop: '-8px' }}>
-              So we built a service focused entirely on one city. Everything we do — every design,
-              every integration, every support interaction — is built around the Greater Las Vegas
-              business community.
+              So we built a service focused entirely on you. Everything we do — every design,
+              every integration, every support interaction — is built around helping your
+              business grow online.
             </p>
           </div>
           <div className="about-values">

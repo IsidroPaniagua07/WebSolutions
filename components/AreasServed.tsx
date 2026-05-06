@@ -1,16 +1,16 @@
-const areas = [
-  { name: 'Henderson', desc: 'Anthem, Seven Hills, Green Valley' },
-  { name: 'Summerlin', desc: 'The Ridges, Red Rock Canyon area' },
-  { name: 'North Las Vegas', desc: 'Aliante, Eldorado, Craig Ranch' },
-  { name: 'Downtown Las Vegas', desc: 'Arts District, Symphony Park' },
-  { name: 'Green Valley', desc: 'Green Valley Ranch, Cadence' },
-  { name: 'Spring Valley', desc: 'Near Boca Park, S. Rainbow area' },
-  { name: 'Boulder City', desc: 'Historic downtown, lake proximity' },
-  { name: 'Laughlin', desc: 'Riverfront communities, retirement' },
-  { name: 'Enterprise', desc: 'Southern Highlands, Rhodes Ranch' },
-  { name: 'Whitney', desc: 'East Las Vegas, near UNLV' },
-  { name: 'Paradise', desc: 'The Strip corridor, near airport' },
-  { name: 'Winchester', desc: 'Central valley, established neighborhoods' },
+const industries = [
+  { name: 'Retail & E-Commerce', desc: 'Boutiques, online stores, product brands' },
+  { name: 'Professional Services', desc: 'Law, finance, consulting, accounting' },
+  { name: 'Health & Wellness', desc: 'Clinics, gyms, therapists, med spas' },
+  { name: 'Hospitality & Food', desc: 'Restaurants, cafes, hotels, caterers' },
+  { name: 'Contractors & Trades', desc: 'Builders, plumbers, electricians, HVAC' },
+  { name: 'Beauty & Lifestyle', desc: 'Salons, spas, stylists, photographers' },
+  { name: 'Real Estate', desc: 'Agents, brokers, property managers' },
+  { name: 'Automotive', desc: 'Dealerships, repair shops, detailing' },
+  { name: 'Education & Coaching', desc: 'Tutors, trainers, online course creators' },
+  { name: 'Non-Profits', desc: 'Charities, foundations, community orgs' },
+  { name: 'Technology', desc: 'SaaS, agencies, tech startups' },
+  { name: 'Events & Entertainment', desc: 'Venues, planners, performers, studios' },
 ];
 
 export default function AreasServed() {
@@ -18,30 +18,31 @@ export default function AreasServed() {
     <section className="section section--alt" id="areas">
       <div className="container">
         <div className="section-header">
-          <div className="section-tag">Coverage</div>
-          <h2 className="section-title">We Know Every Corner of the Valley</h2>
+          <div className="section-tag">Industries</div>
+          <h2 className="section-title">We Work With Businesses of Every Kind</h2>
           <p className="section-subtitle">
-            From the luxury high-rises on the Strip to the master-planned communities of
-            Henderson — if your business is in the Greater Las Vegas area, we&apos;ve got you covered.
+            From solo service providers to multi-location brands — if you need a professional
+            online presence, we have the experience to build it right.
           </p>
         </div>
         <div className="areas-grid">
-          {areas.map((area) => (
-            <div className="area-card" key={area.name}>
+          {industries.map((item) => (
+            <div className="area-card" key={item.name}>
               <div className="area-pin">
                 <svg viewBox="0 0 20 20" fill="none">
-                  <path d="M10 1C6.69 1 4 3.69 4 7c0 4.38 6 12 6 12s6-7.62 6-12c0-3.31-2.69-6-6-6zm0 8.5A2.5 2.5 0 1110 4.5a2.5 2.5 0 010 5z" fill="currentColor"/>
+                  <rect x="2" y="2" width="16" height="16" rx="3" stroke="currentColor" strokeWidth="2"/>
+                  <path d="M6 10h8M10 6v8" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </div>
               <div>
-                <strong>{area.name}</strong>
-                <span>{area.desc}</span>
+                <strong>{item.name}</strong>
+                <span>{item.desc}</span>
               </div>
             </div>
           ))}
         </div>
         <p className="areas-note">
-          Don&apos;t see your area? <a href="#contact">Get in touch</a> — if your business is in the Las Vegas Valley, we can work with you.
+          Don&apos;t see your industry? <a href="#contact">Get in touch</a> — we work with businesses across every sector.
         </p>
       </div>
     </section>

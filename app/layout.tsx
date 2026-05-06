@@ -6,23 +6,23 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', weight: ['600', '700'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'NV Web Solutions — Professional Web Design & Hosting in Las Vegas',
+  title: 'NV Web Solutions — Professional Web Design & Hosting',
   description:
-    'Custom website design, managed hosting, and ongoing maintenance for businesses in the Greater Las Vegas area. We build it, host it, and keep it running.',
+    'Custom website design, managed hosting, and ongoing maintenance for businesses worldwide. We build it, host it, and keep it running.',
   keywords:
-    'Las Vegas web design, web hosting Las Vegas, website maintenance Las Vegas, small business website Nevada, Las Vegas web developer',
+    'web design, web hosting, website maintenance, small business website, custom web development, managed hosting',
   openGraph: {
-    title: 'NV Web Solutions — Professional Web Design & Hosting in Las Vegas',
+    title: 'NV Web Solutions — Professional Web Design & Hosting',
     description:
-      'Custom website design, managed hosting, and ongoing maintenance for Las Vegas businesses. We handle everything so you can focus on running your business.',
+      'Custom website design, managed hosting, and ongoing maintenance for businesses worldwide. We handle everything so you can focus on running your business.',
     type: 'website',
     locale: 'en_US',
     siteName: 'NV Web Solutions',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NV Web Solutions — Professional Web Design & Hosting in Las Vegas',
-    description: 'Custom website design, managed hosting, and ongoing maintenance for Las Vegas businesses.',
+    title: 'NV Web Solutions — Professional Web Design & Hosting',
+    description: 'Custom website design, managed hosting, and ongoing maintenance for businesses worldwide.',
   },
   robots: { index: true, follow: true },
 };

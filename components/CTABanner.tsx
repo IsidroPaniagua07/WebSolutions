@@ -13,7 +13,7 @@ export default function CTABanner() {
         </div>
         <div className="cta-actions">
           <Link href="#contact" className="btn btn-primary btn-lg">Schedule a Free Strategy Call</Link>
-          <a href="tel:+17025550100" className="btn btn-ghost-light btn-lg">(702) 555-0100</a>
+          <Link href="#contact" className="btn btn-ghost-light btn-lg">Send Us a Message</Link>
         </div>
       </div>
     </section>

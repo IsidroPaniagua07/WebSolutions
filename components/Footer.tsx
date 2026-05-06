@@ -10,8 +10,8 @@ export default function Footer() {
             <Logo />
           </Link>
           <p>
-            Professional web design, managed hosting, and ongoing support for businesses across
-            the Greater Las Vegas Valley. We build it, host it, and keep it running.
+            Professional web design, managed hosting, and ongoing support for businesses
+            worldwide. We build it, host it, and keep it running.
           </p>
         </div>
         <div className="footer-col">
@@ -32,12 +32,12 @@ export default function Footer() {
           <Link href="#contact">Contact Us</Link>
         </div>
         <div className="footer-col">
-          <h4>Las Vegas Areas</h4>
-          <Link href="#">Henderson</Link>
-          <Link href="#">Summerlin</Link>
-          <Link href="#">North Las Vegas</Link>
-          <Link href="#">Boulder City</Link>
-          <Link href="#">Green Valley</Link>
+          <h4>Industries</h4>
+          <Link href="#areas">Retail &amp; E-Commerce</Link>
+          <Link href="#areas">Professional Services</Link>
+          <Link href="#areas">Health &amp; Wellness</Link>
+          <Link href="#areas">Contractors &amp; Trades</Link>
+          <Link href="#areas">Hospitality &amp; Food</Link>
         </div>
       </div>
       <div className="footer-bottom">

@@ -28,8 +28,8 @@ const faqs = [
     a: 'You can — we\'ll set you up with access to update basic content like your bio, service descriptions, and blog posts. But most clients prefer to just send us the changes and let us handle it, usually within one business day.',
   },
   {
-    q: 'What areas of Las Vegas do you serve?',
-    a: 'We work with businesses across the entire Greater Las Vegas Valley — Henderson, Summerlin, North Las Vegas, Downtown Las Vegas, Green Valley, Boulder City, Laughlin, and all surrounding communities.',
+    q: 'Do you work with businesses outside the US?',
+    a: 'Absolutely. We work with businesses worldwide. Our team operates remotely and communicates via email, phone, and video call — wherever you are, we can work with you.',
   },
   {
     q: 'Do I need to provide my own domain name?',

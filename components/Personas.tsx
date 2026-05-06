@@ -62,7 +62,7 @@ export default function Personas() {
       <div className="container">
         <div className="section-header">
           <div className="section-tag">Who It&apos;s For</div>
-          <h2 className="section-title">Built for Las Vegas Businesses of Every Kind</h2>
+          <h2 className="section-title">Built for Businesses of Every Kind</h2>
           <p className="section-subtitle">
             Whether you&apos;re opening your first location or scaling an established brand, we have a solution built around your goals.
           </p>

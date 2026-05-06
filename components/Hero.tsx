@@ -6,14 +6,14 @@ export default function Hero() {
       <div className="hero-bg" />
       <div className="hero-overlay" />
       <div className="container hero-content">
-        <div className="hero-badge">Las Vegas Web Design &amp; Hosting</div>
+        <div className="hero-badge">Professional Web Design &amp; Hosting</div>
         <h1 className="hero-title">
           Your Business Deserves<br />
           <span className="gradient-text">A Website That Works.</span>
         </h1>
         <p className="hero-subtitle">
-          We design, build, and fully manage professional websites for businesses across the Greater
-          Las Vegas Valley — then host and maintain everything so you can focus on running your business.
+          We design, build, and fully manage professional websites for businesses worldwide
+          — then host and maintain everything so you can focus on running your business.
         </p>
         <div className="hero-actions">
           <Link href="#contact" className="btn btn-primary btn-lg">Get Your Free Strategy Call</Link>

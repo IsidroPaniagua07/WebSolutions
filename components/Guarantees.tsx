@@ -28,7 +28,7 @@ const guarantees = [
       </svg>
     ),
     title: '1-Business-Day Support',
-    body: "Every request — content update, bug fix, or question — gets a response from our Las Vegas team within one business day.",
+    body: "Every request — content update, bug fix, or question — gets a response from our team within one business day.",
   },
   {
     icon: (

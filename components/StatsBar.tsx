@@ -6,7 +6,7 @@ const stats = [
   { target: 99,  suffix: '.9%',   label: 'Uptime Guaranteed' },
   { target: 14,  suffix: ' Days', label: 'Average Launch Time' },
   { target: 24,  suffix: '/7',    label: 'Support Available' },
-  { target: 100, suffix: '%',     label: 'Las Vegas Focused' },
+  { target: 100, suffix: '%',     label: 'Client Satisfaction' },
 ];
 
 function Counter({ target, suffix }: { target: number; suffix: string }) {

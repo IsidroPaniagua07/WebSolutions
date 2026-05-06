@@ -32,7 +32,7 @@ const services = [
       </svg>
     ),
     title: 'Ongoing Maintenance',
-    body: 'We handle every update, security patch, and content change. Submit a request and our Las Vegas team turns it around within one business day.',
+    body: 'We handle every update, security patch, and content change. Submit a request and our team turns it around within one business day.',
     features: ['Unlimited content updates', 'Security patches & monitoring', 'Plugin & software updates', '1-business-day turnaround'],
   },
   {
@@ -56,8 +56,8 @@ const services = [
       </svg>
     ),
     title: 'Local SEO',
-    body: 'Rank higher on Google for Las Vegas searches. We optimize your site so customers in your area find you first — before they find your competition.',
-    features: ['Las Vegas neighborhood targeting', 'Google Business Profile setup', 'Schema markup for local search', 'Monthly performance reports'],
+    body: 'Rank higher on Google when customers search for businesses like yours. We optimize your site so local customers find you first — before they find your competition.',
+    features: ['City & neighborhood targeting', 'Google Business Profile setup', 'Schema markup for local search', 'Monthly performance reports'],
   },
   {
     icon: (
@@ -69,7 +69,7 @@ const services = [
       </svg>
     ),
     title: 'Expert Support',
-    body: 'A real person — local to Las Vegas — answers your call or email. No ticket queues, no overseas help desks, no automated runaround.',
+    body: 'A real person answers your call or email. No ticket queues, no overseas help desks, no automated runaround.',
     features: ['Dedicated account manager', 'Phone & email support', 'Quarterly strategy reviews', 'Training & onboarding included'],
   },
 ];

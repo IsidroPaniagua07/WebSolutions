@@ -4,7 +4,7 @@ const steps = [
   {
     number: '01',
     title: 'Strategy Call',
-    body: "We learn about your business, your goals, and your customers. No forms — just a 30-minute conversation with our Las Vegas team.",
+    body: "We learn about your business, your goals, and your customers. No forms — just a 30-minute conversation with our team.",
   },
   {
     number: '02',
