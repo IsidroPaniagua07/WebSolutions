@@ -9,17 +9,18 @@ const factors = [
       </svg>
     ),
     title: 'Number of Pages',
-    body: 'A simple agent site has different needs than a full brokerage with team profiles, community pages, and a blog.',
+    body: 'A simple brochure site has different needs than a full business site with service pages, team profiles, a blog, and location pages.',
   },
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
-        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
-        <path d="M9 22V12h6v10" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
+        <circle cx="9" cy="21" r="1" stroke="currentColor" strokeWidth="2"/>
+        <circle cx="20" cy="21" r="1" stroke="currentColor" strokeWidth="2"/>
+        <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 001.95-1.55l1.65-8.45H6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'MLS & IDX Needs',
-    body: 'Basic listing search, advanced map search, featured listings, community pages — each adds capability and value.',
+    title: 'E-Commerce Needs',
+    body: 'Selling products or services online? The number of products, payment methods, and checkout flows all factor into the scope of your project.',
   },
   {
     icon: (
@@ -28,8 +29,8 @@ const factors = [
         <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'CRM & Integrations',
-    body: 'Connecting to Follow Up Boss, kvCORE, LionDesk, or other tools you already use affects the scope of work.',
+    title: 'Third-Party Integrations',
+    body: 'Connecting to booking systems, CRMs, payment processors, scheduling tools, or other software you already use affects the scope of work.',
   },
   {
     icon: (
@@ -38,7 +39,7 @@ const factors = [
       </svg>
     ),
     title: 'Ongoing Support Level',
-    body: 'From basic hosting and security updates to a fully managed service with unlimited content changes — we tailor it to you.',
+    body: 'From basic hosting and security updates to a fully managed service with unlimited content changes — we tailor it to what your business actually needs.',
   },
 ];
 
@@ -48,7 +49,7 @@ export default function GetQuote() {
       <div className="container">
         <div className="section-header">
           <div className="section-tag">Pricing</div>
-          <h2 className="section-title">Every Realtor&apos;s Needs Are Different</h2>
+          <h2 className="section-title">Every Business Is Different</h2>
           <p className="section-subtitle">
             We don&apos;t believe in one-size-fits-all plans. Tell us about your business and
             we&apos;ll put together a custom quote — usually within one business day.

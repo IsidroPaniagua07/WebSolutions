@@ -4,17 +4,17 @@ const steps = [
   {
     number: '01',
     title: 'Strategy Call',
-    body: "We learn about your brand, target neighborhoods, and goals. No forms — just a 30-minute conversation with our Las Vegas team.",
+    body: "We learn about your business, your goals, and your customers. No forms — just a 30-minute conversation with our Las Vegas team.",
   },
   {
     number: '02',
     title: 'Design & Build',
-    body: 'We design your site, configure your MLS feed, and set up all lead capture tools. You review and approve before anything goes live.',
+    body: 'We design your site, build out all the pages and features, and connect any integrations you need. You review and approve before anything goes live.',
   },
   {
     number: '03',
     title: 'Launch & Grow',
-    body: "Your site goes live. We submit to Google, set up your analytics, and then maintain everything so you stay focused on selling.",
+    body: "Your site goes live. We submit to Google, set up your analytics, and maintain everything so you stay focused on running your business.",
   },
 ];
 

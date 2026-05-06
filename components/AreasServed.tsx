@@ -22,7 +22,7 @@ export default function AreasServed() {
           <h2 className="section-title">We Know Every Corner of the Valley</h2>
           <p className="section-subtitle">
             From the luxury high-rises on the Strip to the master-planned communities of
-            Henderson — if you sell real estate in the Greater Las Vegas area, we&apos;ve got you covered.
+            Henderson — if your business is in the Greater Las Vegas area, we&apos;ve got you covered.
           </p>
         </div>
         <div className="areas-grid">
@@ -41,7 +41,7 @@ export default function AreasServed() {
           ))}
         </div>
         <p className="areas-note">
-          Don&apos;t see your area? <a href="#contact">Get in touch</a> — if you&apos;re licensed in Nevada, we can work with you.
+          Don&apos;t see your area? <a href="#contact">Get in touch</a> — if your business is in the Las Vegas Valley, we can work with you.
         </p>
       </div>
     </section>

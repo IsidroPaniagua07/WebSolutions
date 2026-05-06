@@ -5,7 +5,7 @@ import { useState } from 'react';
 const faqs = [
   {
     q: 'How long does it take to launch my website?',
-    a: 'Most sites are live within 14 business days of our strategy call. Complex projects with lots of custom pages or integrations may take a bit longer — we\'ll give you a realistic timeline during our initial conversation.',
+    a: 'Most sites are live within 14 business days of our strategy call. Complex projects with lots of custom pages, e-commerce, or integrations may take a bit longer — we\'ll give you a realistic timeline during our initial conversation.',
   },
   {
     q: 'What if I already have a website?',
@@ -16,8 +16,8 @@ const faqs = [
     a: 'Yes. Your content, your domain, your brand — all yours. We host and maintain the site on your behalf, but you\'re never locked in. If you ever decide to move on, we\'ll hand everything over cleanly.',
   },
   {
-    q: 'How does the MLS / IDX integration work?',
-    a: 'We connect your site to the Greater Las Vegas Association of Realtors (GLVAR) MLS feed through an IDX provider. Listings update automatically — no manual work on your end. Buyers can search properties, save favorites, and send you inquiries directly through your site.',
+    q: 'What\'s included in a custom website?',
+    a: 'Every project includes a bespoke design tailored to your brand, mobile-responsive layout, fast-loading code, on-page SEO setup, SSL certificate, contact forms, and Google Analytics integration. Additional features like e-commerce, booking systems, or third-party integrations are scoped per project.',
   },
   {
     q: 'What does "managed hosting" mean exactly?',
@@ -25,11 +25,11 @@ const faqs = [
   },
   {
     q: 'Can I make changes to my site myself?',
-    a: 'You can — we\'ll set you up with access to update basic content like your bio, listings, and blog posts. But most clients prefer to just send us the changes and let us handle it, usually within one business day.',
+    a: 'You can — we\'ll set you up with access to update basic content like your bio, service descriptions, and blog posts. But most clients prefer to just send us the changes and let us handle it, usually within one business day.',
   },
   {
     q: 'What areas of Las Vegas do you serve?',
-    a: 'We work with Realtors across the entire Greater Las Vegas Valley — Henderson, Summerlin, North Las Vegas, Downtown Las Vegas, Green Valley, Boulder City, Laughlin, and all surrounding communities.',
+    a: 'We work with businesses across the entire Greater Las Vegas Valley — Henderson, Summerlin, North Las Vegas, Downtown Las Vegas, Green Valley, Boulder City, Laughlin, and all surrounding communities.',
   },
   {
     q: 'Do I need to provide my own domain name?',

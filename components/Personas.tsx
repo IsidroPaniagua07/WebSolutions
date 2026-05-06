@@ -4,52 +4,54 @@ const personas = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
-        <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="2"/>
-        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
+        <path d="M9 22V12h6v10" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
       </svg>
     ),
-    tag: 'Solo Agents',
-    title: 'Focus on Selling. Let Us Handle the Tech.',
-    body: "You didn't get your license to become a webmaster. We build your site, keep it running, and make updates whenever you need them — so your only job is closing deals.",
+    tag: 'Small Businesses',
+    title: 'Get Online. Get Customers. Stop Overpaying.',
+    body: "You run a great business — your website should reflect that. We build you something professional and handle all the tech, so you never have to think about it again.",
     points: [
-      'Up and running in under 14 days',
-      'Unlimited content change requests',
-      'IDX search to capture buyer leads 24/7',
-      'Google-optimized for your farm areas',
+      'Live in under 14 days',
+      'Mobile-friendly, fast-loading design',
+      'Google Business Profile setup included',
+      'Unlimited content updates',
     ],
   },
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
-        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        <circle cx="9" cy="7" r="4" stroke="currentColor" strokeWidth="2"/>
-        <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        <circle cx="9" cy="21" r="1" stroke="currentColor" strokeWidth="2"/>
+        <circle cx="20" cy="21" r="1" stroke="currentColor" strokeWidth="2"/>
+        <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 001.95-1.55l1.65-8.45H6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    tag: 'Teams & Brokers',
-    title: 'One Brand. Every Agent. Zero Chaos.',
-    body: "Your team needs a cohesive online presence — individual agent profiles, shared listings, and a brokerage brand that looks like it belongs in the top 1%. We build and manage it all.",
+    tag: 'E-Commerce',
+    title: 'Sell Online, 24 Hours a Day.',
+    body: "From a simple product catalog to a full online store with payments, inventory, and shipping — we build e-commerce sites that are easy for you to manage and easy for customers to buy from.",
     points: [
-      'Agent roster with individual profile pages',
-      'Centralized IDX search for the whole team',
-      'Consistent branding across all profiles',
-      'Priority support for high-volume teams',
+      'Secure online payments (Stripe, PayPal)',
+      'Product management & inventory',
+      'Abandoned cart recovery',
+      'Mobile-optimized checkout',
     ],
   },
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
-        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
+        <rect x="2" y="7" width="20" height="14" rx="2" stroke="currentColor" strokeWidth="2"/>
+        <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" stroke="currentColor" strokeWidth="2"/>
+        <path d="M12 12v3M9 13.5h6" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    tag: 'Luxury Market',
-    title: 'Your Listings Deserve a Stage That Matches Them.',
-    body: "Selling in Summerlin, The Ridges, or MacDonald Highlands? Your website should feel as premium as the properties you represent — with full-screen photography, video, and virtual tour support.",
+    tag: 'Professional Services',
+    title: 'A Website That Earns Your Clients’ Trust Before You Even Meet.',
+    body: "Law firms, medical practices, consultants, financial advisors — credibility starts online. We build polished, professional sites that position you as the expert you are.",
     points: [
-      'Full-screen video & photo hero sections',
-      'Featured listing showcases with rich media',
-      'Elegant design built for high-end buyers',
-      'Single property pages for signature listings',
+      'Appointment booking & contact forms',
+      'Service pages built for local SEO',
+      'Client portal or resource pages',
+      'HIPAA-friendly contact options available',
     ],
   },
 ];
@@ -60,9 +62,9 @@ export default function Personas() {
       <div className="container">
         <div className="section-header">
           <div className="section-tag">Who It&apos;s For</div>
-          <h2 className="section-title">Built for Every Kind of Las Vegas Realtor</h2>
+          <h2 className="section-title">Built for Las Vegas Businesses of Every Kind</h2>
           <p className="section-subtitle">
-            Whether you&apos;re a solo agent just starting out or a luxury broker running a full team, we have a solution tailored to your situation.
+            Whether you&apos;re opening your first location or scaling an established brand, we have a solution built around your goals.
           </p>
         </div>
         <div className="personas-grid">
@@ -76,7 +78,7 @@ export default function Personas() {
                 {p.points.map((pt) => <li key={pt}>{pt}</li>)}
               </ul>
               <Link href="#contact" className="btn btn-outline persona-cta">
-                Talk to Us About Your Situation
+                Talk to Us About Your Project
               </Link>
             </div>
           ))}

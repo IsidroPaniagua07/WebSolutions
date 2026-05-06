@@ -10,49 +10,49 @@ const options = [
         <path d="M3 9h18M9 21V9" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    goodFor: 'Budget-conscious agents who have time to learn the platform and enjoy managing their own tech.',
+    goodFor: 'Budget-conscious business owners who have time to learn the platform and enjoy managing their own tech.',
     tradeoffs: [
-      'IDX/MLS integration requires a separate paid service and technical setup',
       'You handle all updates, security patches, and content changes yourself',
-      'No real estate expertise — you adapt general-purpose tools to fit your needs',
-      'Support is for the platform, not your real estate business',
+      'Templates are used by thousands of other businesses — hard to stand out',
+      'No local expertise — general-purpose tools you adapt to fit your needs',
+      'Support is for the platform, not your specific business goals',
     ],
     cta: null,
     featured: false,
   },
   {
-    label: 'NVRealtorWeb',
-    examples: 'Built exclusively for Greater Las Vegas Realtors',
+    label: 'NV Web Solutions',
+    examples: 'Built exclusively for Greater Las Vegas businesses',
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
         <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
         <path d="M9 22V12h6v10" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
       </svg>
     ),
-    goodFor: 'Las Vegas Realtors who want a professional, fully managed online presence without the tech headaches.',
+    goodFor: 'Las Vegas business owners who want a professional, fully managed online presence without the tech headaches.',
     tradeoffs: [
-      'GLVAR MLS / IDX integration included and pre-configured',
-      'We handle design, hosting, updates, and support — all in one',
-      'Local Las Vegas team that knows your market, neighborhoods, and buyers',
       'Custom-designed for your brand — not a template someone else is using',
+      'We handle design, hosting, updates, and support — all in one',
+      'Local Las Vegas team that knows your market, neighborhoods, and customers',
+      'Dedicated account manager who picks up the phone when you call',
     ],
     cta: '#contact',
     featured: true,
   },
   {
-    label: 'National Real Estate Platforms',
-    examples: 'Real Geeks, kvCORE, Agent Image, and others',
+    label: 'Large National Web Agencies',
+    examples: 'Hibu, Web.com, Thrive Internet Marketing',
     icon: (
       <svg viewBox="0 0 24 24" fill="none">
         <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
         <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
       </svg>
     ),
-    goodFor: 'Agents who want an established real estate platform with built-in CRM, lead gen tools, and IDX out of the box.',
+    goodFor: 'Businesses that want a large agency with established processes and a broad range of digital marketing services.',
     tradeoffs: [
-      'Solid IDX and lead gen tools built for real estate nationally',
-      'Support teams serve thousands of agents — response times vary',
-      'Not specifically tuned for the Las Vegas / GLVAR market',
+      'Broad service offerings — SEO, PPC, social, and web under one roof',
+      'Support teams serve thousands of clients — you may feel like a number',
+      'Not specifically tuned for the Las Vegas local market',
       'Often higher monthly cost with annual contracts required',
     ],
     cta: null,
@@ -68,8 +68,8 @@ export default function Comparison() {
           <div className="section-tag">Your Options</div>
           <h2 className="section-title">Choosing the Right Solution</h2>
           <p className="section-subtitle">
-            There&apos;s no single right answer for every agent. Here&apos;s an honest look at your
-            main choices so you can decide what fits your situation.
+            There&apos;s no single right answer for every business. Here&apos;s an honest look at
+            your main choices so you can decide what fits your situation.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export default function Comparison() {
               <p className="option-good-for">{opt.goodFor}</p>
 
               <div className="option-section-label">
-                {opt.featured ? 'What&apos;s included' : 'Things to consider'}
+                {opt.featured ? 'What\'s included' : 'Things to consider'}
               </div>
               <ul className="option-list">
                 {opt.tradeoffs.map((t) => (

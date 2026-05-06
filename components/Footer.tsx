@@ -6,27 +6,27 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <Link href="#home" aria-label="NVRealtorWeb home" style={{ display: 'inline-block', marginBottom: 16 }}>
+          <Link href="#home" aria-label="NV Web Solutions home" style={{ display: 'inline-block', marginBottom: 16 }}>
             <Logo />
           </Link>
           <p>
-            Premier web solutions for Realtors in the Greater Las Vegas Valley. MLS integration,
-            custom design, managed hosting, and expert support — all in one.
+            Professional web design, managed hosting, and ongoing support for businesses across
+            the Greater Las Vegas Valley. We build it, host it, and keep it running.
           </p>
         </div>
         <div className="footer-col">
           <h4>Services</h4>
-          <Link href="#services">MLS / IDX Integration</Link>
-          <Link href="#services">Website Design</Link>
+          <Link href="#services">Custom Website Design</Link>
           <Link href="#services">Managed Hosting</Link>
-          <Link href="#services">SEO Optimization</Link>
-          <Link href="#services">Maintenance Plans</Link>
+          <Link href="#services">E-Commerce</Link>
+          <Link href="#services">Local SEO</Link>
+          <Link href="#services">Ongoing Maintenance</Link>
         </div>
         <div className="footer-col">
           <h4>Company</h4>
           <Link href="#about">About Us</Link>
           <Link href="#how-it-works">How It Works</Link>
-          <Link href="#comparison">Why NVRealtorWeb</Link>
+          <Link href="#comparison">Why NV Web Solutions</Link>
           <Link href="#get-quote">Get a Quote</Link>
           <Link href="#faq">FAQ</Link>
           <Link href="#contact">Contact Us</Link>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>&copy; {new Date().getFullYear()} NVRealtorWeb. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NV Web Solutions. All rights reserved.</p>
           <div className="footer-legal">
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms of Service</Link>

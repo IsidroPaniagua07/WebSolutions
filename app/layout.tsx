@@ -2,43 +2,29 @@ import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 import '@/styles/globals.css';
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
-  weight: ['600', '700'],
-  display: 'swap',
-});
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', weight: ['600', '700'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'NVRealtorWeb — Professional Websites for Las Vegas Realtors',
+  title: 'NV Web Solutions — Professional Web Design & Hosting in Las Vegas',
   description:
-    'Custom MLS-powered websites exclusively for Realtors in the Greater Las Vegas Valley. We design, host, and maintain everything so you can focus on closing deals.',
+    'Custom website design, managed hosting, and ongoing maintenance for businesses in the Greater Las Vegas area. We build it, host it, and keep it running.',
   keywords:
-    'Las Vegas realtor website, IDX MLS website Las Vegas, real estate web design Nevada, Henderson realtor website, Summerlin real estate website, GLVAR IDX integration',
+    'Las Vegas web design, web hosting Las Vegas, website maintenance Las Vegas, small business website Nevada, Las Vegas web developer',
   openGraph: {
-    title: 'NVRealtorWeb — Professional Websites for Las Vegas Realtors',
+    title: 'NV Web Solutions — Professional Web Design & Hosting in Las Vegas',
     description:
-      'Custom MLS-powered websites exclusively for Realtors in the Greater Las Vegas Valley. Design, hosting, and maintenance — all in one.',
+      'Custom website design, managed hosting, and ongoing maintenance for Las Vegas businesses. We handle everything so you can focus on running your business.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'NVRealtorWeb',
+    siteName: 'NV Web Solutions',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NVRealtorWeb — Professional Websites for Las Vegas Realtors',
-    description:
-      'Custom MLS-powered websites exclusively for Realtors in the Greater Las Vegas Valley.',
+    title: 'NV Web Solutions — Professional Web Design & Hosting in Las Vegas',
+    description: 'Custom website design, managed hosting, and ongoing maintenance for Las Vegas businesses.',
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

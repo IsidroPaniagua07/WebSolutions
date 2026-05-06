@@ -39,7 +39,7 @@ export default function Contact() {
                 <svg viewBox="0 0 24 24" fill="none">
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
                 </svg>
-                <span>hello@nvrealtorweb.com</span>
+                <span>hello@nvwebsolutions.com</span>
               </div>
               <div className="contact-item">
                 <svg viewBox="0 0 24 24" fill="none">
@@ -63,7 +63,7 @@ export default function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="maria@lasvegasrealty.com" required />
+              <input type="email" id="email" name="email" placeholder="maria@yourbusiness.com" required />
             </div>
             <div className="form-group">
               <label htmlFor="phone">Phone Number</label>
@@ -72,11 +72,13 @@ export default function Contact() {
             <div className="form-group">
               <label htmlFor="plan">Interested In</label>
               <select id="plan" name="plan">
-                <option value="">Select a plan...</option>
-                <option value="starter">Starter — $149/mo</option>
-                <option value="professional">Professional — $249/mo</option>
-                <option value="team">Team / Broker — $449/mo</option>
-                <option value="custom">Custom quote</option>
+                <option value="">Select a service...</option>
+                <option value="new-website">New Website Design</option>
+                <option value="redesign">Website Redesign</option>
+                <option value="ecommerce">E-Commerce Store</option>
+                <option value="hosting">Managed Hosting &amp; Maintenance</option>
+                <option value="seo">Local SEO</option>
+                <option value="custom">Custom Quote</option>
               </select>
             </div>
             <div className="form-group">
@@ -85,7 +87,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows={4}
-                placeholder="Which areas of Las Vegas do you specialize in? Do you have an existing website?"
+                placeholder="What does your business do? Do you have an existing website? What are your goals?"
               />
             </div>
             <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>

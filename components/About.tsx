@@ -14,8 +14,8 @@ const values = [
         <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Built for Realtors, Period',
-    body: "We don't build sites for restaurants, lawyers, or dentists. Every tool, every integration, every design decision we make is shaped by the specific needs of real estate professionals.",
+    title: 'Built for Local Businesses',
+    body: "We focus exclusively on Las Vegas businesses. Every design decision, every feature, and every support process is shaped around the needs of local business owners — not a national template.",
   },
   {
     icon: (
@@ -33,7 +33,7 @@ const values = [
       </svg>
     ),
     title: 'Obsessed with Results',
-    body: "A beautiful site that doesn't generate leads is just an expensive business card. We care about traffic, inquiries, and ultimately closings — and we build accordingly.",
+    body: "A beautiful site that doesn't generate leads is just an expensive business card. We care about traffic, inquiries, and new customers — and we build accordingly.",
   },
 ];
 
@@ -45,18 +45,18 @@ export default function About() {
           <div className="about-content">
             <div className="section-tag">Who We Are</div>
             <h2 className="section-title-left">
-              Las Vegas Realtors Deserve Better Than Generic Web Solutions
+              Las Vegas Businesses Deserve More Than a Generic Website
             </h2>
             <p className="why-body">
-              We started NVRealtorWeb because we watched talented agents lose business to
-              competitors who simply had better websites. Cookie-cutter templates, broken MLS feeds,
-              and support teams that don&apos;t know the difference between Henderson and North Las
-              Vegas — Las Vegas Realtors deserved better.
+              We started NV Web Solutions because we watched great local businesses get overlooked
+              online while competitors with better websites took their customers. Cookie-cutter
+              templates, unreliable hosting, and support teams who&apos;d never even heard of
+              Henderson — Las Vegas business owners deserved better.
             </p>
             <p className="why-body" style={{ marginTop: '-8px' }}>
-              So we built a service focused entirely on one city and one profession. Everything we
-              do — every feature, every integration, every support process — is designed around the
-              Greater Las Vegas real estate market.
+              So we built a service focused entirely on one city. Everything we do — every design,
+              every integration, every support interaction — is built around the Greater Las Vegas
+              business community.
             </p>
           </div>
           <div className="about-values">

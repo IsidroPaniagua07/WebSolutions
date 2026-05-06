@@ -6,13 +6,14 @@ export default function Hero() {
       <div className="hero-bg" />
       <div className="hero-overlay" />
       <div className="container hero-content">
-        <div className="hero-badge">Exclusively for Greater Las Vegas Realtors</div>
+        <div className="hero-badge">Las Vegas Web Design &amp; Hosting</div>
         <h1 className="hero-title">
-          Turn Your Website Into<br />
-          <span className="gradient-text">Your Best Lead Source.</span>
+          Your Business Deserves<br />
+          <span className="gradient-text">A Website That Works.</span>
         </h1>
         <p className="hero-subtitle">
-          We design, build, and fully manage MLS-powered websites for Las Vegas Realtors — with built-in lead capture, local SEO, and a team that handles everything so you stay focused on closing.
+          We design, build, and fully manage professional websites for businesses across the Greater
+          Las Vegas Valley — then host and maintain everything so you can focus on running your business.
         </p>
         <div className="hero-actions">
           <Link href="#contact" className="btn btn-primary btn-lg">Get Your Free Strategy Call</Link>

@@ -5,10 +5,10 @@ export default function CTABanner() {
     <section className="cta-banner">
       <div className="container cta-inner">
         <div className="cta-text">
-          <h2>Your Next Closing Could Start With a Website Visit.</h2>
+          <h2>Your Next Customer Could Find You Online Tonight.</h2>
           <p>
-            Let&apos;s build you a site that works for you around the clock — capturing leads while you
-            show homes, write offers, and do what you do best.
+            Let&apos;s build you a site that works around the clock — capturing leads while you
+            focus on running your business and doing what you do best.
           </p>
         </div>
         <div className="cta-actions">

@@ -18,7 +18,7 @@ const guarantees = [
       </svg>
     ),
     title: 'Free Site Migration',
-    body: "Already have a website? We'll move everything over — content, domain, listings — at zero cost and with zero downtime.",
+    body: "Already have a website? We'll move everything over — content, domain, and files — at zero cost and with zero downtime.",
   },
   {
     icon: (
