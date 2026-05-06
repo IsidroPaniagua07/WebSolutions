@@ -6,7 +6,7 @@ export default function CTABanner() {
       <div className="container cta-inner">
         <div className="cta-text">
           <h2>Ready to Dominate Your Las Vegas Market Online?</h2>
-          <p>Join 200+ local Realtors who trust NVRealtorWeb to power their online presence.</p>
+          <p>Be among the first Las Vegas Realtors to launch with NVRealtorWeb — introductory pricing available now.</p>
         </div>
         <div className="cta-actions">
           <Link href="#contact" className="btn btn-primary btn-lg">Schedule a Free Call</Link>

@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from 'react';
 
 const stats = [
-  { target: 200, suffix: '+',     label: 'Active Realtor Clients' },
   { target: 99,  suffix: '.9%',   label: 'Uptime Guaranteed' },
   { target: 14,  suffix: ' Days', label: 'Average Launch Time' },
-  { target: 8,   suffix: '+ Yrs', label: 'Serving Las Vegas' },
+  { target: 24,  suffix: '/7',    label: 'Support Available' },
+  { target: 100, suffix: '%',     label: 'Las Vegas Focused' },
 ];
 
 function Counter({ target, suffix }: { target: number; suffix: string }) {

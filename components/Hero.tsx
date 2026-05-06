@@ -20,11 +20,11 @@ export default function Hero() {
           <Link href="#services" className="btn btn-ghost btn-lg">See What&apos;s Included</Link>
         </div>
         <div className="hero-trust">
-          <span>Trusted by <strong>200+</strong> Las Vegas Realtors</span>
-          <span className="divider">•</span>
           <span>IDX / MLS Integrated</span>
           <span className="divider">•</span>
           <span>99.9% Uptime Guarantee</span>
+          <span className="divider">•</span>
+          <span>Las Vegas Local Team</span>
         </div>
       </div>
       <div className="hero-scroll-hint">
