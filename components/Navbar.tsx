@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import Logo from '@/components/Logo';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -34,9 +35,8 @@ export default function Navbar() {
   return (
     <header className={`nav-header${scrolled ? ' scrolled' : ''}`} ref={navRef}>
       <div className="container nav-inner">
-        <Link href="#home" className="logo" onClick={close}>
-          <span className="logo-mark">NV</span>
-          <span className="logo-text">RealtorWeb</span>
+        <Link href="#home" onClick={close} aria-label="NVRealtorWeb home">
+          <Logo />
         </Link>
 
         <nav className={`nav-links${open ? ' open' : ''}`} id="navLinks">

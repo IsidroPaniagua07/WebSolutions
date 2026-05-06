@@ -1,3 +1,5 @@
+import { Fragment } from 'react';
+
 const steps = [
   {
     number: '01',
@@ -29,16 +31,16 @@ export default function HowItWorks() {
         </div>
         <div className="steps-grid">
           {steps.map((step, i) => (
-            <>
-              <div className="step" key={step.number}>
+            <Fragment key={step.number}>
+              <div className="step">
                 <div className="step-number">{step.number}</div>
                 <div className="step-content">
                   <h3>{step.title}</h3>
                   <p>{step.body}</p>
                 </div>
               </div>
-              {i < steps.length - 1 && <div className="step-connector" key={`conn-${i}`} />}
-            </>
+              {i < steps.length - 1 && <div className="step-connector" />}
+            </Fragment>
           ))}
         </div>
       </div>

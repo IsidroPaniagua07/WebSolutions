@@ -1,13 +1,13 @@
 import Link from 'next/link';
+import Logo from '@/components/Logo';
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <Link href="#home" className="logo">
-            <span className="logo-mark">NV</span>
-            <span className="logo-text">RealtorWeb</span>
+          <Link href="#home" aria-label="NVRealtorWeb home" style={{ display: 'inline-block', marginBottom: 16 }}>
+            <Logo />
           </Link>
           <p>
             Premier web solutions for Realtors in the Greater Las Vegas Valley. MLS integration,
