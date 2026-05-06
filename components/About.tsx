@@ -49,7 +49,7 @@ export default function About() {
               Every Business Deserves More Than a Generic Website
             </h2>
             <p className="why-body">
-              We started NV Web Solutions because we watched great businesses get overlooked
+              We started Webaton Web Solutions because we watched great businesses get overlooked
               online while competitors with better websites took their customers. Cookie-cutter
               templates, unreliable hosting, and support teams that treat you like a ticket
               number — business owners deserved better.

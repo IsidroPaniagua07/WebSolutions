@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <Link href="#home" aria-label="NV Web Solutions home" style={{ display: 'inline-block', marginBottom: 16 }}>
+          <Link href="#home" aria-label="Webaton Web Solutions home" style={{ display: 'inline-block', marginBottom: 16 }}>
             <Logo />
           </Link>
           <p>
@@ -26,7 +26,7 @@ export default function Footer() {
           <h4>Company</h4>
           <Link href="#about">About Us</Link>
           <Link href="#how-it-works">How It Works</Link>
-          <Link href="#comparison">Why NV Web Solutions</Link>
+          <Link href="#comparison">Why Webaton Web Solutions</Link>
           <Link href="#get-quote">Get a Quote</Link>
           <Link href="#faq">FAQ</Link>
           <Link href="#contact">Contact Us</Link>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>&copy; {new Date().getFullYear()} NV Web Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Webaton Web Solutions. All rights reserved.</p>
           <div className="footer-legal">
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms of Service</Link>

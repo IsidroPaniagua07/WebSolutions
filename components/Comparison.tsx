@@ -21,7 +21,7 @@ const options = [
     featured: false,
   },
   {
-    label: 'NV Web Solutions',
+    label: 'Webaton Web Solutions',
     examples: 'Built for growing businesses worldwide',
     icon: (
       <svg viewBox="0 0 24 24" fill="none">

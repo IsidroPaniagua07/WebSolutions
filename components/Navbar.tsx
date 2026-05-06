@@ -35,7 +35,7 @@ export default function Navbar() {
   return (
     <header className={`nav-header${scrolled ? ' scrolled' : ''}`} ref={navRef}>
       <div className="container nav-inner">
-        <Link href="#home" onClick={close} aria-label="NV Web Solutions home">
+        <Link href="#home" onClick={close} aria-label="Webaton Web Solutions home">
           <Logo />
         </Link>
 
