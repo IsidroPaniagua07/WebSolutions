@@ -1,10 +1,12 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import StatsBar from '@/components/StatsBar';
+import Personas from '@/components/Personas';
 import Services from '@/components/Services';
 import HowItWorks from '@/components/HowItWorks';
 import About from '@/components/About';
 import WhyUs from '@/components/WhyUs';
+import Guarantees from '@/components/Guarantees';
 import Comparison from '@/components/Comparison';
 import GetQuote from '@/components/GetQuote';
 import AreasServed from '@/components/AreasServed';
@@ -20,8 +22,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <StatsBar />
+      <Personas />
       <Services />
       <HowItWorks />
+      <Guarantees />
       <About />
       <WhyUs />
       <Comparison />

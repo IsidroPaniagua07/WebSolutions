@@ -5,11 +5,14 @@ export default function CTABanner() {
     <section className="cta-banner">
       <div className="container cta-inner">
         <div className="cta-text">
-          <h2>Ready to Dominate Your Las Vegas Market Online?</h2>
-          <p>Be among the first Las Vegas Realtors to launch with NVRealtorWeb — introductory pricing available now.</p>
+          <h2>Your Next Closing Could Start With a Website Visit.</h2>
+          <p>
+            Let&apos;s build you a site that works for you around the clock — capturing leads while you
+            show homes, write offers, and do what you do best.
+          </p>
         </div>
         <div className="cta-actions">
-          <Link href="#contact" className="btn btn-primary btn-lg">Schedule a Free Call</Link>
+          <Link href="#contact" className="btn btn-primary btn-lg">Schedule a Free Strategy Call</Link>
           <a href="tel:+17025550100" className="btn btn-ghost-light btn-lg">(702) 555-0100</a>
         </div>
       </div>

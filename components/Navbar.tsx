@@ -40,11 +40,12 @@ export default function Navbar() {
         </Link>
 
         <nav className={`nav-links${open ? ' open' : ''}`} id="navLinks">
+          <Link href="#who-its-for" onClick={close}>Who It&apos;s For</Link>
           <Link href="#services" onClick={close}>Services</Link>
-          <Link href="#how-it-works" onClick={close}>How It Works</Link>
+          <Link href="#guarantees" onClick={close}>Our Promises</Link>
           <Link href="#get-quote" onClick={close}>Get a Quote</Link>
           <Link href="#faq" onClick={close}>FAQ</Link>
-          <Link href="#contact" className="btn btn-nav" onClick={close}>Get Started</Link>
+          <Link href="#contact" className="btn btn-nav" onClick={close}>Free Strategy Call</Link>
         </nav>
 
         <button
